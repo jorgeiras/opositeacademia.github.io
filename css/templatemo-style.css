@@ -407,6 +407,7 @@ https://templatemo.com/tm-516-known
     border: 1px solid #f0f0f0;
     padding: 2em 1em;
     margin-bottom: 10px;
+    min-height: 230px !important;
 
   }
 
@@ -502,6 +503,8 @@ https://templatemo.com/tm-516-known
 
   #courses .section-title {
     text-align: center;
+    padding-top: 20px !important;
+
   }
 
   #courses .owl-theme .owl-nav {
@@ -529,6 +532,9 @@ https://templatemo.com/tm-516-known
 
   .courses-image {
     background: linear-gradient(to right, #202020, #101010);
+  }
+  .courses-image img{
+    max-width: 100%;
   }
 
   .courses-date {
